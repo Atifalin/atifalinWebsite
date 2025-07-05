@@ -39,6 +39,37 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Deployment (GitHub Pages + Custom Domain)
+
+This site is deployed to **GitHub Pages** with a custom domain: [https://atifalin.in](https://atifalin.in)
+
+### Manual Deploy Commands
+After making changes, run:
+```sh
+npm run build
+npm run deploy
+```
+
+- This will build the site and publish it to the `gh-pages` branch.
+- The custom domain is set via a `CNAME` file in `public/`.
+
+### Key Features
+- **Resume Download:** PDF at `/files/Resume_Mohammed_Atif_Ali_Neranki.pdf`
+- **Contact Form:** Submits to Formspree ([https://formspree.io/f/xpwreqll](https://formspree.io/f/xpwreqll))
+- **Custom Domain:** Managed via Hostinger DNS (A records for root, CNAME for www)
+- **No homepage field in package.json** (required for custom domain asset loading)
+
+### DNS Setup (Hostinger)
+- 4 A records for root domain pointing to GitHub Pages IPs
+- CNAME for www to `atifalin.github.io`
+
+### To Update Resume PDF
+- Replace the file at `public/files/Resume_Mohammed_Atif_Ali_Neranki.pdf`
+- Commit, build, and redeploy
+
+### To Update Contact Form
+- Change the `action` in the form in `src/App.js` to your new Formspree endpoint
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
