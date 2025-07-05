@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/atifalinWebsite/static/css/main.4d4eb15b.css",
-    "main.js": "/atifalinWebsite/static/js/main.fc013db6.js",
-    "static/js/453.f27b8364.chunk.js": "/atifalinWebsite/static/js/453.f27b8364.chunk.js",
-    "index.html": "/atifalinWebsite/index.html",
-    "main.4d4eb15b.css.map": "/atifalinWebsite/static/css/main.4d4eb15b.css.map",
-    "main.fc013db6.js.map": "/atifalinWebsite/static/js/main.fc013db6.js.map",
-    "453.f27b8364.chunk.js.map": "/atifalinWebsite/static/js/453.f27b8364.chunk.js.map"
+    "main.css": "/static/css/main.4d4eb15b.css",
+    "main.js": "/static/js/main.3e497fc5.js",
+    "static/js/453.f27b8364.chunk.js": "/static/js/453.f27b8364.chunk.js",
+    "index.html": "/index.html",
+    "main.4d4eb15b.css.map": "/static/css/main.4d4eb15b.css.map",
+    "main.3e497fc5.js.map": "/static/js/main.3e497fc5.js.map",
+    "453.f27b8364.chunk.js.map": "/static/js/453.f27b8364.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d4eb15b.css",
-    "static/js/main.fc013db6.js"
+    "static/js/main.3e497fc5.js"
   ]
 }
