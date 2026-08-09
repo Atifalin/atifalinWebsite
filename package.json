@@ -25,7 +25,7 @@
   },
   "author": "Mohammed Atif Ali Neranki",
   "license": "MIT",
-  "homepage": "https://Atifalin.github.io/atifalinWebsite",
+
   "eslintConfig": {
     "extends": [
       "react-app",
